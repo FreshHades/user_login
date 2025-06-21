@@ -1,11 +1,14 @@
-Gateway:
-Checks if users.csv exists
-
+<b>Gateway-</b><br>
+Checks if users.csv exists<br>
 Checks if required fields (username, password) exist and aren't empty
 
-Built:
-Takes user input
-
+<b>Built-</b><br>
+Takes user input<br>
 Authenticates the user against stored credentials
 
-(Optional) Logs login time or adds new users
+<b>Main-</b><br>
+Runs both gateway and built functions in a single program loop
+
+
+<b>Users</b> and <b>Logins-</b> <br>
+Maintains record of users
